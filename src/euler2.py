@@ -14,5 +14,5 @@ for i in range(11):
     x.append(x[i] + h)
     y.append(y[i] + h * dy[i])
     dy.append(dy[i] + h * dxdy(x[i], y[i], dy[i]))
-    print(x[i], y[i], dy[i])
+    print("%.1f, %.5f, %.5f" % (x[i], y[i], dy[i]))
 
