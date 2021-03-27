@@ -10,6 +10,8 @@ y = [1]
 dy = [1]
 n = 0
 
+print("x", "     ", "y", "     ", "dy")
+
 for i in range(11):
     x.append(x[i] + h)
     y.append(y[i] + h * dy[i])
